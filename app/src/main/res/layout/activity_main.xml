@@ -29,4 +29,22 @@
         app:layout_constraintEnd_toEndOf="@id/text_hello"
         />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="10dp"
+        android:maxHeight="10dp"
+        android:maxWidth="10dp"
+        app:layout_constraintHeight="150dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toTopOf="@+id/text_hello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_hello"
+        tools:srcCompat="@drawable/dice_1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
